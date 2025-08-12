@@ -7,12 +7,6 @@
 
 > Classify different types of waste into six categories using **ResNet50** and **DenseNet** on the [TrashNet Dataset](https://github.com/garythung/trashnet).  
 
----
-
-## 📸 Project Preview  
-
-![Preview Image](assets/preview.png)  
-*Example waste images from the dataset.*
 
 ------------------------------------------------------------
 ## Overview
