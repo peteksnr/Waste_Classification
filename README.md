@@ -20,29 +20,29 @@ across six classes:
 - 🛍 Plastic  
 - 🗑 Trash  
 ------------------------------------------------------------
-## Project Structure
-dataset/ # Original dataset
-├── cardboard/
-├── glass/
-├── metal/
-├── paper/
-├── plastic/
-└── trash/
+## 📁 Project Structure
+```bash
+dataset/                  # Original dataset
+  ├── cardboard/
+  ├── glass/
+  ├── metal/
+  ├── paper/
+  ├── plastic/
+  └── trash/
 
 dataset_split/             # Created after running split.py
-├── train/
-├── val/
-└── test/
+  ├── train/
+  ├── val/
+  └── test/
 
-# Created after running split.py
-train.py # General training script
-eval.py # General evaluation script
-train_resnet50.py # Train ResNet50 model
-eval_resnet.py # Evaluate ResNet50 model
-Waste Classification with Deep Learning - README
-train_densenet.py # Train DenseNet model
-eval_densenet.py # Evaluate DenseNet model
-split.py # Dataset splitting utility
+train.py                   # General training script
+eval.py                    # General evaluation script
+train_resnet50.py          # Train ResNet50 model
+eval_resnet.py             # Evaluate ResNet50 model
+train_densenet.py          # Train DenseNet model
+eval_densenet.py           # Evaluate DenseNet model
+split.py                   # Dataset splitting utility
+```
 ------------------------------------------------------------
 ## 📊 Dataset  
 
