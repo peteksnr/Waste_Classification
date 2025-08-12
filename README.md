@@ -35,8 +35,8 @@ dataset_split/             # Created after running split.py
   ├── val/
   └── test/
 
-train.py                   # General training script
-eval.py                    # General evaluation script
+train.py                   # Custom model training script
+eval.py                    # Custom model evaluation script
 train_resnet50.py          # Train ResNet50 model
 eval_resnet.py             # Evaluate ResNet50 model
 train_densenet.py          # Train DenseNet model
@@ -80,6 +80,12 @@ This will create dataset_split/ with:
 ```bash
 python train_resnet50.py
 ```
+
+- Custom Model:
+```bash
+python train.py
+```
+
 - DenseNet:
 ```bash
 python train_densenet.py
@@ -89,6 +95,10 @@ python train_densenet.py
 ```bash
 python eval_resnet.py
 ```
+- Custom model:
+```bash
+python eval.py
+```
 - DenseNet:
 ```bash
 python eval_densenet.py
@@ -97,6 +107,7 @@ python eval_densenet.py
 ## Model Information
 - ResNet50 A 50-layer residual network designed to avoid vanishing gradients.
 - DenseNet A densely connected network that reuses features across layers for efficiency.
+- Custom Model A user-defined architecture trained and evaluated with train.py and eval.py.
 ------------------------------------------------------------
 
 ## Acknowledgments
