@@ -22,15 +22,18 @@ across six classes:
 ------------------------------------------------------------
 ## Project Structure
 dataset/ # Original dataset
-cardboard/
-glass/
-metal/
-paper/
-plastic/
-trash/
-dataset_split/ train/
-val/
-test/
+├── cardboard/
+├── glass/
+├── metal/
+├── paper/
+├── plastic/
+└── trash/
+
+dataset_split/             # Created after running split.py
+├── train/
+├── val/
+└── test/
+
 # Created after running split.py
 train.py # General training script
 eval.py # General evaluation script
