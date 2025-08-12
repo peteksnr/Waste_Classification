@@ -35,19 +35,24 @@ train_densenet.py # Train DenseNet model
 eval_densenet.py # Evaluate DenseNet model
 split.py # Dataset splitting utility
 ------------------------------------------------------------
-## Dataset
-We use the TrashNet Dataset containing categorized waste images.
-| Class | Example |
+## 📊 Dataset  
+
+We use the **[TrashNet Dataset](https://github.com/garythung/trashnet)** containing categorized waste images.  
+
+| Class       | Example         |
 |-------------|-----------------|
-| Cardboard | Brown box |
-| Glass | Bottle |
-| Metal | Can |
-| Paper | Sheet |
-| Plastic | Bag |
-| Trash | Misc waste |
-------------------------------------------------------------
-## Requirements
-pip install torch torchvision numpy pillow matplotlib scikit-learn
+| Cardboard   | 📦 Brown box    |
+| Glass       | 🍾 Bottle       |
+| Metal       | 🥫 Can          |
+| Paper       | 📜 Sheet        |
+| Plastic     | 🛍 Bag          |
+| Trash       | 🚮 Misc waste   |
+## ⚙️ Requirements  
+
+Install the dependencies:  
+```bash
+pip install torch torchvision numpy pillow matplotlib scikit-learn ```
+
 ------------------------------------------------------------
 ## Workflow
 1. Dataset Preparation
